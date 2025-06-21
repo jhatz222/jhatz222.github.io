@@ -68,6 +68,7 @@ print("Python + MongoDB aggregation took:", time.time() - start)
 for r in results:
     print(r["_id"], r["count"])
 
+---
 
 ## BST Implementation
 
@@ -108,6 +109,7 @@ class BST:
         self._inorder(self.root, result)
         return result
 
+---
 
 ## Benchmarking Both Approaches
 
@@ -129,6 +131,8 @@ for k, c in pairs:
 bst_pairs = tree.in_order()
 print("BST in-order traversal took:", time.time() - t1)
 
+---
+
 ## Creating MongoDB Indexes
 
 // connect to mongo shell, then:
@@ -139,15 +143,17 @@ db.animals.createIndex({ founded_year: 1 })
 
 // re-run the aggregation pipeline and timing above to compare.
 
+---
+
 ## Why I Made These Changes
 
-Why This Is a Data-Structure & Algorithm Enhancement
 Binary Search Tree is an O(log n) average-time insert structure; walking it in-order yields sorted output in O(n).
 
 Python’s built-in sorted() is O(n log n) on a list, so for large data sets BST may win (and it’s instructive to compare).
 
 Database Indexes push filtering work into MongoDB’s optimized engine, avoiding full collection scans.
 
+---
 
 ## Reflection on Course Outcomes
 
