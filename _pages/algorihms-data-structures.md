@@ -6,8 +6,8 @@ permalink: /algorithms-data-structures
 
 # Algorithms & Data Structures
 
-**Original Artifact:** MongoDB Aggregation Pipeline Notebook from Spring 2024 that ran aggregation queries in Python
-**Enhancement:** Added an in-memory Binary Search Tree with benchmarks; created MongoDB indexes to speed up queries
+- **Original Artifact:** MongoDB Aggregation Pipeline Notebook from Spring 2024 that ran aggregation queries in Python
+- **Enhancement:** Added an in-memory Binary Search Tree with benchmarks; created MongoDB indexes to speed up queries
 
 ## Purpose of Notebook
 
