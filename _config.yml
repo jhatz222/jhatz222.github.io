@@ -1,9 +1,10 @@
-theme: minima        # built-in GitHub Pages theme
-title: JJ's ePortfolio
-description: “Demonstrating Proficiency in Software Design, Algorithms, and Databases”
+# _config.yml
+theme: minima
+title: "JJ’s ePortfolio"
+description: "Demonstrating Proficiency in Software Design, Algorithms, and Databases"
+
 include:
   - _pages
-
 
 nav:
   - title: Home
@@ -14,3 +15,4 @@ nav:
     url: /algorithms-data-structures
   - title: Databases
     url: /databases
+
