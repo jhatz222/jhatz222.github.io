@@ -1,6 +1,6 @@
 # _config.yml
 theme: minima
-title: "JJ’s ePortfolio"
+title: "JJ's ePortfolio"
 description: "Demonstrating Proficiency in Software Design, Algorithms, and Databases"
 
 include:
@@ -13,3 +13,4 @@ nav:
     url: /algorithms-data-structures
   - title: Databases
     url: /databases
+
