@@ -60,7 +60,7 @@ function renderComment(data) {
 
 # Server-side: Emitting Comments and Data
 
-# app.py (Flask + Flask-SocketIO)
+File: app.py (Flask + Flask-SocketIO)
 from flask_socketio import SocketIO, emit
 
 socketio = SocketIO(app)
