@@ -6,13 +6,12 @@ permalink: /algorithms-data-structures
 
 # Algorithms & Data Structures
 
-**Artifact:** MongoDB Aggregation Pipeline Notebook  
-**Original:** Spring 2024 CS-340 notebook running basic aggregation queries in Python  
+**Original Artifact:** MongoDB Aggregation Pipeline Notebook from Spring 2024 that ran aggregation queries in Python
 **Enhancement:** Added an in-memory Binary Search Tree with benchmarks; created MongoDB indexes to speed up queries
 
 ## Purpose of Notebook
 
-I built a simple Python notebook that uses PyMongo’s aggregation framework to answer questions like:
+I built a Python notebook that uses PyMongo’s aggregation framework to answer questions like:
 
 - “How many animals are in each state?”  
 - “How many facilities were founded each year?”
