@@ -1,6 +1,6 @@
 ---
 layout: page
-title: “Software Design & Engineering”
+title: Software Design & Engineering
 permalink: /software-design
 ---
 

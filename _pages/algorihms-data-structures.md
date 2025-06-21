@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Algorithms & Data Structures"
+title: Algorithms & Data Structures
 permalink: /algorithms-data-structures
 ---
 
