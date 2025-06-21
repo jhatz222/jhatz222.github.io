@@ -12,7 +12,7 @@ permalink: /algorithms-data-structures
 
 ## Purpose of Notebook
 
-In Module One we built a simple Python notebook that uses PyMongo’s aggregation framework to answer questions like:
+I built a simple Python notebook that uses PyMongo’s aggregation framework to answer questions like:
 
 - “How many animals are in each state?”  
 - “How many facilities were founded each year?”
@@ -23,7 +23,7 @@ That worked, but it always:
 2. Built a Python list of `(key, count)` pairs  
 3. Ran `sorted()` over that list before printing results
 
-In this enhancement, we decouple sorting from Python’s built-in and:
+In this enhancement, I decoupled sorting from Python’s built-in and:
 
 1. Insert each `(key, count)` pair into a custom BST  
 2. Walk the tree in-order to produce sorted output  
@@ -35,17 +35,17 @@ In this enhancement, we decouple sorting from Python’s built-in and:
 ## Changes Made
 
 - **Binary Search Tree**  
-  Implemented a `BST` class in pure Python.  Instead of dumping into a list + `sorted()`, we insert into the tree and traverse it in-order.
+  Implemented a `BST` class in pure Python.  Instead of dumping into a list + `sorted()`, I insert into the tree and traverse it in-order.
 
 - **Performance Benchmark**  
-  Wrapped both approaches in `time.time()` calls so you can see which one is faster on our data set.
+  Wrapped both approaches in `time.time()` calls so you can see which one is faster on the data set.
 
 - **MongoDB Indexes**  
   Created single-field indexes on `state` and `founded_year` in the `animals` collection.  This pushes filtering/sorting work back to MongoDB and cuts down execution time dramatically.
 
 ---
 
-## Key Code Snippets
+## Important Code Snippets
 
 ### 1. Original Aggregation + Python Sort
 

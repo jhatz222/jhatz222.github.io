@@ -34,7 +34,7 @@ When one volunteer marks an animal as “adopted” or adds a new animal, everyo
 - **Minimal UI Impact**  
   Volunteers who don’t need live chatter can leave it off; busy shelters won’t get unwanted pop-ups.
 
-## Key Code Snippets
+## Important Code Snippets
 
 ### Client-Side: Toggle Live Comments
 
