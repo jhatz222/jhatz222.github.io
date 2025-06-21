@@ -1,0 +1,13 @@
+theme: minima        # built-in GitHub Pages theme
+title: “JJ’s CS 499 ePortfolio”
+description: “My CS Capstone enhancements in Software Design, Algorithms, and Databases”
+
+nav:
+  - title: Home
+    url: /
+  - title: Software Design & Engineering
+    url: /software-design
+  - title: Algorithms & Data Structures
+    url: /algorithms-data-structures
+  - title: Databases
+    url: /databases
