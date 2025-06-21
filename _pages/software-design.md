@@ -75,10 +75,15 @@ def broadcast_animal_update(update):
     socketio.emit('new_data', update, broadcast=True)
 
 
+# Why These Changes Were Made
+
+I added the switch so volunteers who need updates in real-time can get them, and others won’t be bothered. In a busy shelter, someone might mark a dog as “adopted” at any time, and volunteers need to see that right away. By sending comments and updates on a separate “new_comment” channel only when someone checks “Subscribe to Live Comments,” the dashboard becomes a true team tool. It stops volunteers from using old data but lets staff who only want to look at information keep notifications turned off so they aren’t interrupted.
+
+
 # Reflection on Course Outcomes
 
-Modular Design (O-1): Clean separation between comment and data channels.
+Modular Design (Outcome 1): Clean separation between comment and data channels.
 
-Real-Time Collaboration (O-3): Uses WebSockets to keep all clients in sync.
+Real-Time Collaboration (Outcome 3): Uses WebSockets to keep all clients in sync.
 
-User-Centered (O-5): Opt-in switch prevents unwanted noise for casual viewers.
+User-Centered (Outcome 5): Opt-in switch prevents unwanted noise for casual viewers.
