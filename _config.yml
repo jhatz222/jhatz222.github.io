@@ -1,6 +1,9 @@
 theme: minima        # built-in GitHub Pages theme
 title: “JJ’s CS 499 ePortfolio”
 description: “My CS Capstone enhancements in Software Design, Algorithms, and Databases”
+include:
+  - _pages
+
 
 nav:
   - title: Home
