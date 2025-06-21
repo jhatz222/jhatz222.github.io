@@ -1,6 +1,6 @@
 ---
-layout: home
-title: “Welcome to my CS 499 ePortfolio”
+layout: default
+title: “Home”
 permalink: /
 ---
 
