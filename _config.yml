@@ -9,12 +9,9 @@ include:
 nav:
   - title: Home
     url: /
-
   - title: Software Design & Engineering
     url: /software-design
-
   - title: Algorithms & Data Structures
     url: /algorithms-data-structures
-    
   - title: Databases
     url: /databases
