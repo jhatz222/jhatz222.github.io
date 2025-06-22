@@ -14,6 +14,17 @@ Next, I have outlined the name of the projects that I used to showcase proficien
 
 Feel free to begin with this Home page and then click on one of the links at the bottom to take you through the individual pages detailing these enhancements. Or, you can click on the Nav Bar at the top to cycle through these pages.
 
+
+## Professional Self-Assessment
+
+You will also find a Self Assessment included along with the code enhancements for the projects. This assessment details a bit of what I feel I have learned and showcased over the course of the Computer Science program.
+
+Over the past few years as I have worked towards my Computer Science degree, I have been exposed to several programming languages (Python, C++, Java, etc.) several technological platforms (GitHub, MongoDB, Android app development, etc.) and both font and back-end development (building a full stack web application). The exposure to these has shaped my proficiency in computer science skills and my passion for working in a field that employs some of these elements. I would like to work towards proficiency in building full stack web applications and become a Full Stack Web Developer. It was the most challenging skill I had to learn and would like to challenge myself and continue learning the ins-and-outs of building a full stack web app.
+
+The biggest challenge for me, as mentioned above, was including dynamic elements in a full stack web app. Managing all of the elements of the application was overwhelming for a beginner and something that took a lot of practice learning. The images and dynamic pricing information for the vacation website I had to build took a lot of tweaking to appear dynamically on the page. I managed to get it to work eventually, but it does seem like something that will come easier to me as time goes on.
+
+This ePortfolio brings together three projects that show what I can do. I built an Animal Shelter Dashboard that lets users see live updates and leave comments right away. That shows I know how to make interactive, collaborative, user-friendly apps. I also created a MongoDB Aggregation Pipeline notebook where I timed a custom binary search tree against built-in database queries. That proves I understand how to use algorithms to measure and improve performance. I enhanced an Android Inventory Manager app with Room so data is saved safely and the code stays organized that shows I know how to create a maintainable and persistent database.
+
 ---
 
 # Code Review Video
