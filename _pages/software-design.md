@@ -7,6 +7,8 @@ permalink: /software-design
 - **Original Artifact:** Animal Shelter Dashboard from CS 340 from Spring 2024 
 - **Enhancement:** Added real-time updates via Socket.IO, opt-in live comments
 
+---
+
 ## Purpose of App
 
 The dashboard is a web page that shows information about animals in a shelter: things like each animal’s name, breed, and location. Volunteers (or staff members) log in, and they can:
@@ -19,6 +21,8 @@ When one volunteer marks an animal as “adopted” or adds a new animal, everyo
 
 > *This turns a one-user demo into a true collaborative tool.*
 
+---
+
 ## Changes Made
 
 - **Opt-in Live Comments**  
@@ -30,6 +34,8 @@ When one volunteer marks an animal as “adopted” or adds a new animal, everyo
   Changed the button handler to emit `post_comment` (server then rebroadcasts it), instead of simply writing locally in the notebook.  
 - **Minimal UI Impact**  
   Volunteers who don’t need live chatter can leave it off; busy shelters won’t get unwanted pop-ups.
+
+---
 
 ## Important Code Snippets
 
@@ -71,11 +77,13 @@ def broadcast_animal_update(update):
     # called whenever an animal is added/updated/deleted
     socketio.emit('new_data', update, broadcast=True)
 
+---
 
 ## Why These Changes Were Made
 
 I added the switch so volunteers who need updates in real-time can get them, and others won’t be bothered. In a busy shelter, someone might mark a dog as “adopted” at any time, and volunteers need to see that right away. By sending comments and updates on a separate “new_comment” channel only when someone checks “Subscribe to Live Comments,” the dashboard becomes a true team tool. It stops volunteers from using old data but lets staff who only want to look at information keep notifications turned off so they aren’t interrupted.
 
+---
 
 ## Reflection on Course Outcomes
 

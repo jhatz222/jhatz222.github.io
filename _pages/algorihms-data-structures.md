@@ -7,6 +7,8 @@ permalink: /algorithms-data-structures
 - **Original Artifact:** MongoDB Aggregation Pipeline Notebook from Spring 2024 that ran aggregation queries in Python
 - **Enhancement:** Added an in-memory Binary Search Tree with benchmarks; created MongoDB indexes to speed up queries
 
+---
+
 ## Purpose of Notebook
 
 I built a Python notebook that uses PyMongo’s aggregation framework to answer questions like:
@@ -106,6 +108,7 @@ class BST:
         self._inorder(self.root, result)
         return result
 
+        
 ---
 
 ## Benchmarking Both Approaches
