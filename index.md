@@ -14,6 +14,7 @@ Next, I have outlined the name of the projects that I used to showcase proficien
 
 Feel free to begin with this Home page and then click on one of the links at the bottom to take you through the individual pages detailing these enhancements. Or, you can click on the Nav Bar at the top to cycle through these pages.
 
+---
 
 ## Professional Self-Assessment
 
