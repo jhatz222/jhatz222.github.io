@@ -25,18 +25,21 @@ Welcome to my capstone ePortfolio.
 
 ## Enhancement Files
 
-I’ve organized all of the original and enhanced code for each project in GitHub. Browse the folders below to see exactly what changed:
+I’ve organized all of the original code, enhancement narratives, and enhanced code for each project in GitHub. Browse the folders below to see exactly what changed:
 
 - **Animal Shelter Dashboard**  
   - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Original%20Code)  
+  - [Enhancement Narrative](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Enhancement%20Narrative)  
   - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Enhanced%20Code)
 
 - **MongoDB Aggregation Pipeline**  
   - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Original%20Code)  
+  - [Enhancement Narrative](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Enhancement%20Narrative)  
   - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Enhanced%20Code)
 
 - **Inventory Manager App**  
   - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Original%20Code)  
+  - [Enhancement Narrative](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Enhancement%20Narrative)  
   - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Enhanced%20Code)
 
 ---
