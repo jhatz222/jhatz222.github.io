@@ -9,6 +9,8 @@ permalink: /databases
 - **Original Artifact:** Spring 2024 CS-360 in-memory inventory manager  
 - **Enhancement:** Integrated persistent local storage with Android Room  
 
+---
+
 ## Purpose of App
 
 The original inventory manager kept all items in a transient, in-memory list. On app restart everything was lost. With Room, each item is stored in a SQLite database on the device. Now:
@@ -16,6 +18,8 @@ The original inventory manager kept all items in a transient, in-memory list. On
 - Items persist across launches  
 - Queries can filter, sort, and index without reloading the entire list  
 - The app is ready for more complex data operations (joins, migrations, etc.)
+
+---
 
 ## Changes Made
 
@@ -33,6 +37,8 @@ The original inventory manager kept all items in a transient, in-memory list. On
   - Handled Room initialization and permissions in a cleaner, centralized way  
 - **Build Configuration**  
   - Added Room and lifecycle dependencies to `build.gradle.kts`
+
+---
 
 ## Important Code Snippets
 
@@ -114,19 +120,23 @@ implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
 ---
 
 ## Why These Changes Were Made
-Persistence: Users expect their inventory to survive app restarts.
 
-Scalability: Room’s query power (indexes, filters) avoids manual list scans.
+- Persistence: Users expect their inventory to survive app restarts.
 
-Clean Architecture: Repository pattern centralizes data logic, making UI code lean and testable.
+- Scalability: Room’s query power (indexes, filters) avoids manual list scans.
 
-Future-Proofing: Versioned migrations and structured DAOs prepare the app for offline sync or larger datasets.
+- Clean Architecture: Repository pattern centralizes data logic, making UI code lean and testable.
+
+- Future-Proofing: Versioned migrations and structured DAOs prepare the app for offline sync or larger datasets.
 
 ---
 
 ##Reflection on Course Outcomes
-Data Management (Outcome 4): Leveraged Room to model and persist entities.
 
-Software Design (Outcome 1): Applied repository and DAO patterns for clear separation of concerns.
+- Data Management (Outcome 4): Leveraged Room to model and persist entities.
 
-Performance Awareness (Outcome 3): Indexed fields to optimize query execution and avoid full scans.
+- Software Design (Outcome 1): Applied repository and DAO patterns for clear separation of concerns.
+
+- Performance Awareness (Outcome 3): Indexed fields to optimize query execution and avoid full scans.
+
+---
