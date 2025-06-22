@@ -61,4 +61,8 @@ Use the menu above to explore my enhancements in:
 - [Algorithms & Data Structures](/algorithms-data-structures)
 - [Databases](/databases)
 
+and my self-evaluation:
+
+- [Self Evaluation](/self-evaluation)
+
 Feel free to click through each section for code samples, narratives, and reflections!
