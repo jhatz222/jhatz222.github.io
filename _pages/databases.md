@@ -3,6 +3,13 @@ layout: page
 title: Databases
 permalink: /databases
 ---
+## Links:
+
+  - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Original%20Code)  
+  - [Enhancement Narrative](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Enhancement%20Narrative)  
+  - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Enhanced%20Code)
+
+---
 
 - **Original Artifact:** Spring 2024 CS-360 in-memory inventory manager  
 - **Enhancement:** Integrated persistent local storage with Android Room  

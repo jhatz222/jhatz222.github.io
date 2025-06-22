@@ -3,6 +3,13 @@ layout: page
 title: Algorithms & Data Structures
 permalink: /algorithms-data-structures
 ---
+## Links:
+
+  - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Original%20Code)  
+  - [Enhancement Narrative](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Enhancement%20Narrative)  
+  - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Enhanced%20Code)
+
+---
 
 - **Original Artifact:** MongoDB Aggregation Pipeline Notebook from Spring 2024 that ran aggregation queries in Python
 - **Enhancement:** Added an in-memory Binary Search Tree with benchmarks; created MongoDB indexes to speed up queries
@@ -108,7 +115,7 @@ class BST:
         self._inorder(self.root, result)
         return result
 
-        
+
 ---
 
 ## Benchmarking Both Approaches
