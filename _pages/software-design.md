@@ -4,16 +4,17 @@ title: Software Design & Engineering
 permalink: /software-design
 ---
 
-- **Original Artifact:** Animal Shelter Dashboard from CS 340 from Spring 2024 
-- **Enhancement:** Added real-time updates via Socket.IO, opt-in live comments
-
----
-
 ## Links:
 
   - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Original%20Code)  
   - [Enhancement Narrative](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Enhancement%20Narrative)  
   - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Enhanced%20Code)
+
+---
+
+
+- **Original Artifact:** Animal Shelter Dashboard from CS 340 from Spring 2024 
+- **Enhancement:** Added real-time updates via Socket.IO, opt-in live comments
 
 ---
 

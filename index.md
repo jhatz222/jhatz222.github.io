@@ -12,7 +12,7 @@ Below, you will first find a Code Review, where I review the code of these three
 
 Next, I have outlined the name of the projects that I used to showcase proficiency in each topic and linked to the GitHub folder that houses the original code folder, the updated code folder, and the project narrative detailing the enhancements.
 
-Feel free t with this Home page and then click on one of the links at the bottom to take you through the individual pages detailing these enhancements. Or, you can click on the Nav Bar at the top to cycle through these pages.
+Feel free to begin with this Home page and then click on one of the links at the bottom to take you through the individual pages detailing these enhancements. Or, you can click on the Nav Bar at the top to cycle through these pages.
 
 ---
 
@@ -62,5 +62,3 @@ Use the menu above to explore my enhancements in:
 - [Databases](/databases)
 
 Feel free to click through each section for code samples, narratives, and reflections!
-
-You can also include a short introduction paragraph here about your professional journey, links to your GitHub repo, or anything else you’d like people to see right away.
