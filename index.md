@@ -21,6 +21,26 @@ Welcome to my capstone ePortfolio.
 </div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
+---
+
+## Enhancement Files
+
+I’ve organized all of the original and enhanced code for each project in GitHub. Browse the folders below to see exactly what changed:
+
+- **Animal Shelter Dashboard**  
+  - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Original%20Code)  
+  - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Animal%20Shelter%20Dashboard/Enhanced%20Code)
+
+- **MongoDB Aggregation Pipeline**  
+  - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Original%20Code)  
+  - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/MongoDB%20Aggregation%20Pipeline/Enhanced%20Code)
+
+- **Inventory Manager App**  
+  - [Original Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Original%20Code)  
+  - [Enhanced Code](https://github.com/jhatz222/jhatz222.github.io/tree/main/enhancement-files/Inventory%20Manager%20App/Enhanced%20Code)
+
+---
+
 
 Use the menu above to explore my enhancements in:
 
