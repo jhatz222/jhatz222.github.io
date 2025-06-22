@@ -4,8 +4,6 @@ title: Databases
 permalink: /databases
 ---
 
-# Databases
-
 - **Original Artifact:** Spring 2024 CS-360 in-memory inventory manager  
 - **Enhancement:** Integrated persistent local storage with Android Room  
 
@@ -131,7 +129,7 @@ implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
 
 ---
 
-##Reflection on Course Outcomes
+## Reflection on Course Outcomes
 
 - Data Management (Outcome 4): Leveraged Room to model and persist entities.
 

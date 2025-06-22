@@ -4,8 +4,6 @@ title: Software Design & Engineering
 permalink: /software-design
 ---
 
-# Software Design & Engineering
-
 - **Original Artifact:** Animal Shelter Dashboard from CS 340 from Spring 2024 
 - **Enhancement:** Added real-time updates via Socket.IO, opt-in live comments
 
